@@ -9,7 +9,7 @@ class GetRequester
   end
   
   def parse_json
-    URI.parse(@url)
+    JSON.parse(@url)
   end
   
   def get_response_body
