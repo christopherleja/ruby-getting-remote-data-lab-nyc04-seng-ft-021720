@@ -1,2 +1,5 @@
 require 'net/http'
-require 'open_uri'
+require 'open-uri'
+require 'json'
+
+class 
