@@ -8,8 +8,12 @@ class GetRequester
     URL = url
   end
   
+  def parse_json
+    
+  end
+  
   def get_response_body
-    uri = URL
+    
   end
   
 end
