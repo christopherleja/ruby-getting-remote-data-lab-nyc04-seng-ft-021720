@@ -13,8 +13,8 @@ class GetRequester
   end
   
   def get_response_body
-    response = Net::HTTP.get_response(parse_json)
-    response.body
+    Net::HTTP.get_response(parse_json)
+    
   end
   
 end
