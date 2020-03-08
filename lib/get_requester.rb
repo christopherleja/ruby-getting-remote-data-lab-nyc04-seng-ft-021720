@@ -13,7 +13,7 @@ class GetRequester
   end
   
   def get_response_body
-    response = net.
+    response = Net::HTTP
   end
   
 end
