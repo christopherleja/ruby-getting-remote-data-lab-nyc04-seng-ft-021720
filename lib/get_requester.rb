@@ -5,11 +5,11 @@ require 'json'
 class GetRequester
   
   def initialize(url)
-    URL = url
+    @url = url
   end
   
   def parse_json
-    URI.parse(URL)
+    URI.parse(@url)
   end
   
   def get_response_body
